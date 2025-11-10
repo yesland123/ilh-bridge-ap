@@ -4,8 +4,8 @@ from ap.client import APClient
 app = FastAPI()
 
 # 1. Config temporaire des identifiants AP (on mettra propre plus tard)
-AP_USERNAME = "TON_LOGIN_AP_ICI"
-AP_PASSWORD = "TON_MOT_DE_PASSE_ICI"
+AP_USERNAME = "3125460d"
+AP_PASSWORD = "SvszYMUHbR"
 
 client = APClient(AP_USERNAME, AP_PASSWORD)
 
